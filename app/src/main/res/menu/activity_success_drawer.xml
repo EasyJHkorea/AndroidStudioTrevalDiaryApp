@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    tools:context=".SuccessActivity">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/asia_icon"
+            android:icon="@drawable/ic_asia"
+            android:title="Asia" />
+        <item
+            android:id="@+id/europe_icon"
+            android:icon="@drawable/ic_europe"
+            android:title="Europe" />
+        <item
+            android:id="@+id/afreeca_icon"
+            android:icon="@drawable/ic_afreeca"
+            android:title="Afreeca" />
+        <item
+            android:id="@+id/southamerica_icon"
+            android:icon="@drawable/ic_southamerica"
+            android:title="South America" />
+        <item
+            android:id="@+id/northamerica_icon"
+            android:icon="@drawable/ic_northamerica"
+            android:title="North America" />
+        <item
+            android:id="@+id/oceania_icon"
+            android:icon="@drawable/ic_oceania"
+            android:title="Oceania" />
+    </group>
+
+    <item android:title="User">
+        <menu>
+            <item
+                android:id="@+id/setting"
+                android:icon="@drawable/ic_settings_applications_black_24dp"
+                android:title="Setting" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout_door"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+
+</menu>
